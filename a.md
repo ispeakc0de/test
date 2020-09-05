@@ -1,4 +1,4 @@
-```yaml
+
 Events:
   Type    Reason                     Age                   From                     Message
   ----    ------                     ----                  ----                     -------
@@ -10,5 +10,4 @@ Events:
   Normal  PostChaosCheck             2m34s                 pod-delete-j3pndg-tjwr5  AUT is Running successfully
   Normal  Summary                    2m34s                 pod-delete-j3pndg-tjwr5  pod-delete experiment has been Passed
   Normal  ExperimentJobCleanUp       2m28s                 timeout1-runner          Experiment Job 'pod-delete-j3pndg' will be retained
-  Normal  ChaosEngineCompleted       2m22s                 chaos-operator           Chaos Engine completed, will delete or retain the resources according to jobCleanUpPolicy
-```⏎         
+  Normal  ChaosEngineCompleted       2m22s                 chaos-operator           Chaos Engine completed, will delete or retain the resources according to jobCleanUpPolicy        
